@@ -10,7 +10,11 @@ int main()
 	i = 1;
 	printf("Введите обратный факториал ");
 	scanf(" %d",&m);
-
+	if(m <= 0)
+	{
+		printf("Неверное значение");
+		return 0;
+	}
 	while(m != i)
 	{
 		s = s * i;
