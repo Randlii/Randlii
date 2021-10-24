@@ -8,6 +8,11 @@ int main()
 	koldel = 0;
 	printf("Введите до какого числа искать прост.числа ");
 	scanf(" %d",&m);
+	if(m <= 0)
+	{
+		printf("Неверное значение");
+		return 0;
+	}
 	i = m;
 	while(m != 0)
 	{
