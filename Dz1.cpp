@@ -19,7 +19,7 @@ void push(Node_t **head, int num1,int num2) {
 
 void printStack(const Node_t* head) {
     while (head) {
-        std::cout << " " << head->ar[0] << " "<< head->ar[1];
+        std::cout << " " << head->ar[0] << " "<< head->ar[1] << " | ";
         head = head->next;
     }
 }
