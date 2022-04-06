@@ -3,7 +3,6 @@
 typedef struct Node_tag {
     int ar[2];
     struct Node_tag *next;
-    struct Node_tag *last;
 } Node_t;
 
 void push(Node_t **head, int num1,int num2) {
