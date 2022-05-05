@@ -12,7 +12,7 @@ void ReadMatrix()
 {
     ifstream F;
     int i, j;
-    F.open("TextFile1.txt");
+    F.open("Kruskal.dat");
         F >> N;
     W = new pInt[N];
     for (i = 0; i < N; i++)
