@@ -12,13 +12,13 @@ void ReadMatrix()
 {
     ifstream F;
     int i, j;
-    N = 6;
     F.open("TextFile1.txt");
+        F >> N;
     W = new pInt[N];
     for (i = 0; i < N; i++)
         W[i] = new int[N];
     cout << "Весовая матрица графа: \n";
-    cout << "    ";
+    cout << "   ";
     for (j = 0; j < N; j++) {
         cout.width(4);
         cout << (char)(j+65);
